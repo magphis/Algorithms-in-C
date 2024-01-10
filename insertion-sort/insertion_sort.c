@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void insertionsort(int arr[], int n)
+void insertionSort(int arr[], int n)
 {
 	int i, j, key;
 
@@ -32,7 +32,7 @@ int main()
 	printf("Before sorting\n");
 	printArray(arr, n);
 	printf("\nAfter sorting\n");
-	insertionsort(arr, n);
+	insertionSort(arr, n);
 	printArray(arr, n);
 
 	return 0;
