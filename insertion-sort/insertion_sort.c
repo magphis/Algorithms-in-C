@@ -29,9 +29,9 @@ int main()
 	int arr[] = {12, 3, 6, 1, 9, 10};
 	int n = sizeof(arr) / sizeof(arr[0]);
 
-	printf("Before sorting\n");
+	printf("Unsorted array\n");
 	printArray(arr, n);
-	printf("\nAfter sorting\n");
+	printf("\nSorted array\n");
 	insertionSort(arr, n);
 	printArray(arr, n);
 
